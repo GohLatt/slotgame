@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>slot game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contaiener">
+      <div class="amount-money-container">
+        <div class="money-chip">
+          <img src="img/1k.jpeg" alt="money-chip photo" id="0" />
+          <img src="img/5k.jpeg" alt="money-chip photo" id="1" />
+          <img src="img/10k.jpg" alt="money-chip photo" id="2" />
+          <img src="img/25k.jpg" alt="money-chip photo" id="3" />
+        </div>
+        <div class="logo">
+          <img src="img/logo.jpg" alt="logo photo" />
+        </div>
+        <div class="user--amount">
+          <h4>
+            YourAccountAmount - <span class="player--amount">1000000</span>
+          </h4>
+        </div>
+      </div>
+
+      <!------------------------ end nav--------------------------------->
+      <div class="section-container">
+        <div class="game-section">
+          <div class="second-section-container">
+            <div class="girl">
+              <img src="img/girl.png" alt="" />
+            </div>
+            <div class="plate">
+              <img src="img/img7.jpg" alt="" class="q1" />
+              <img src="img/img7.jpg" alt="" class="q2" />
+              <img src="img/img7.jpg" alt="" class="q3" />
+            </div>
+          </div>
+
+          <!------------------end second section------------------------------>
+
+          <div class="grid-container">
+            <div class="grid-section">
+              <div class="item1 item">
+                <div class="betPriceshow hidden">
+                  <img src="img/10k.jpg" alt="" />
+                </div>
+              </div>
+              <div class="item2 item">
+                <div class="betPriceshow hidden">
+                  <img src="img/10k.jpg" alt="" />
+                </div>
+              </div>
+              <div class="item3 item">
+                <div class="betPriceshow hidden">
+                  <img src="img/10k.jpg" alt="" />
+                </div>
+              </div>
+              <div class="item4 item">
+                <div class="betPriceshow hidden">
+                  <img src="img/10k.jpg" alt="" />
+                </div>
+              </div>
+              <div class="item5 item">
+                <div class="betPriceshow hidden">
+                  <img src="img/10k.jpg" alt="" />
+                </div>
+              </div>
+              <div class="item6 item">
+                <div class="betPriceshow hidden">
+                  <img src="img/10k.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------end grid section ---------------------->
+        <div class="player-mode-container">
+          <div class="player-mode">
+            <h1>This is My Game</h1>
+            <div>
+              <h4>We have some rules</h4>
+              <ul>
+                <li>At first, we give you 100K free</li>
+                <li>Second you chose money-chip</li>
+                <li>Finally you chose the item</li>
+              </ul>
+            </div>
+
+            <button class="btn btn-player">Play Now</button>
+          </div>
+        </div>
+        <!-- ------------------playermod end---------------->
+        <div class="alretbox-container">
+          <div class="alretbox">
+            <p class="alret-text">Hello</p>
+          </div>
+        </div>
+        <div class="player-win">
+          <div class="win-container">
+            <h2>Congratulations</h2>
+            <p class="adding">You win 20000 Kyats and We added 2000 kyats</p>
+            <h4>
+              YouAccountAmount - <span class="player--newAmount">1000</span>
+            </h4>
+            <button class="btn btn-nextRound">Next round</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio id="backgroundAudio" src="audio/backgroundaudio.mp3"></audio>
+    <audio id="winingAudio" src="audio/winingaudio.mp3"></audio>
+    <audio id="loseAudio" src="audio/loseaudio.mp3"></audio>
+    <script src="app.js"></script>
+  </body>
+</html>
